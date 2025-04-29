@@ -13,4 +13,8 @@ public class LegalRiskAnalysisPipeline implements AnalysisPipeline{
 
     List<Analyze> tasks;
 
+    LegalRiskAnalysisPipeline(){
+        System.out.println("initialize");
+    }
+
 }
