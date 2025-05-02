@@ -6,10 +6,25 @@ import com.example.legalrisk.documents.Document;
 import java.util.List;
 
 public class CommercialRetailAnalysisPipeline implements AnalysisPipeline{
+    @Override
+    public void getAllDocuments() {
 
-    List<Document> documents;
+    }
 
-    List<Analyze> tasks;
+    @Override
+    public void checkAllDocuments() {
+
+    }
+
+    @Override
+    public void conductAllAnalysis() {
+
+    }
+
+    @Override
+    public void checkAllAnalysis() {
+
+    }
 
     public CommercialRetailAnalysisPipeline() {
         System.out.println("initialize");
